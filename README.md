@@ -1,7 +1,9 @@
 # STM32_HAL_Project
 
 ## Introduction
-This project develops a smart sensor system based on the STM32 microcontroller. The system consists of tasks for reading temperature, humidity, light, and ultrasonic sensors; logic control for buzzer, door, and light; and displaying data on LCD and TFT screens. The DHT11, HCSR05, TFT, and LCD sensors are supported by custom-built HAL-level drivers. This is a basic STM32 project for practicing the use of protocols such as SPI, I2C, UART, Timer, PWM, and ADC.
+This project develops a smart sensor system based on the STM32 microcontroller. The system consists of tasks for reading temperature, humidity, light, and ultrasonic sensors; logic control for buzzer, door, and light; and displaying data on LCD and TFT screens. The DHT11, HCSR05 sensors, TFT, and LCD display are supported by custom-built HAL-level drivers. 
+
+This project focuses on practicing embedded system development using communication interfaces such as SPI, I2C, and UART, as well as MCU peripherals including Timers, PWM, and ADC. It also strengthens skills in datasheet analysis and sensor-to-MCU interfacing
 
 ## Task Structure
 
@@ -46,3 +48,7 @@ typedef struct {
 - STM32F103C8T6 (Blue Pill)
 - DHT11 sensor, HC-SR05, light sensor, LCD 1602, TFT 1.8"
 - Servo90, Buzzer, LED
+- Keil C and STM32CubeMx for development (optional). 
+
+## Video Demonstration
+[[Video Demo]](https://drive.google.com/file/d/1pGzdTfytts9mGmYQFil0pYG1PhILaVPb/view?usp=sharing)
